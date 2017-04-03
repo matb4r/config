@@ -12,7 +12,7 @@ set ruler
 set backspace=2
 set cursorline
 hi CursorLine cterm=none ctermbg=236
-" set mouse=a
+set mouse=n
 map <ScrollWheelUp> <C-Y><C-Y><C-Y>
 map <ScrollWheelDown> <C-E><C-E><C-E>
 set laststatus=2

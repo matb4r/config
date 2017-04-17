@@ -24,10 +24,10 @@ hi LineNr ctermbg=236
 set relativenumber
 :vnoremap < <gv
 :vnoremap > >gv
-nnoremap <F2> :call NoNumbers()<cr>
-nnoremap <F3> :call Numbers()<cr>
-nnoremap <F4> :call RelativeNumbers()<cr>
-set pastetoggle=<F5>
+nnoremap <F5> :call NoNumbers()<cr>
+nnoremap <F6> :call Numbers()<cr>
+nnoremap <F7> :call RelativeNumbers()<cr>
+set pastetoggle=<F4>
 
 function! NoNumbers()
 	set nonumber

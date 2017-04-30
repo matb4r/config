@@ -1,3 +1,4 @@
+-- ~/.config/awesome/rc.lua
 -- for widgets
 local vicious = require("vicious")
 -- Standard awesome library

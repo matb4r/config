@@ -1,3 +1,4 @@
+-- /usr/share/awesome/themes/default/theme.lua
 ---------------------------
 -- Default awesome theme --
 ---------------------------

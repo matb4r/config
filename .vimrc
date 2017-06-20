@@ -29,6 +29,16 @@ nnoremap <F6> :call Numbers()<cr>
 nnoremap <F7> :call RelativeNumbers()<cr>
 set pastetoggle=<F4>
 
+" do not break words
+set formatoptions=1
+set linebreak
+" moving on wrapped text
+nnoremap j gj
+nnoremap k gk
+vnoremap j gj
+vnoremap k gk
+set breakindent "auto indent on wrapped text
+
 function! NoNumbers()
 	set nonumber
 	set norelativenumber

@@ -37,11 +37,12 @@ nnoremap j gj
 nnoremap k gk
 vnoremap j gj
 vnoremap k gk
-set breakindent "auto indent on wrapped text
+"auto indent on wrapped text
+set breakindent 
 
 " moving lines up/down
-noremap <C-S-k> ddkkp
-noremap <C-S-j> ddp
+noremap <C-K> ddkP
+noremap <C-J> ddp
 
 function! NoNumbers()
 	set nonumber

@@ -39,6 +39,10 @@ vnoremap j gj
 vnoremap k gk
 set breakindent "auto indent on wrapped text
 
+" moving lines up/down
+noremap <C-S-k> ddkkp
+noremap <C-S-j> ddp
+
 function! NoNumbers()
 	set nonumber
 	set norelativenumber

@@ -2,5 +2,7 @@
 	{ "keys": ["alt+left"], "command": "prev_view" },
 	{ "keys": ["alt+right"], "command": "next_view" },
 	{ "keys": ["alt+ctrl+left"], "command": "jump_back" },
-	{ "keys": ["alt+ctrl+right"], "command": "jump_forward" }
+	{ "keys": ["alt+ctrl+right"], "command": "jump_forward" },
+	{ "keys": ["keypad_enter"], "command": "find_next", "context":
+        [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]}
 ]

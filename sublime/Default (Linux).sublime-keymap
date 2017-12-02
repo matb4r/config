@@ -4,5 +4,7 @@
 	{ "keys": ["alt+ctrl+left"], "command": "jump_back" },
 	{ "keys": ["alt+ctrl+right"], "command": "jump_forward" },
 	{ "keys": ["keypad_enter"], "command": "find_next", "context":
+        [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]},
+	{ "keys": ["shift+keypad_enter"], "command": "find_prev", "context":
         [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]}
 ]

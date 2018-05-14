@@ -28,6 +28,7 @@ nnoremap <F5> :call NoNumbers()<cr>
 nnoremap <F6> :call Numbers()<cr>
 nnoremap <F7> :call RelativeNumbers()<cr>
 set pastetoggle=<F4>
+set scrolloff=3
 
 " do not break words
 set formatoptions=1

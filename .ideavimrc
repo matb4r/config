@@ -1,5 +1,7 @@
 nnoremap <C-K> <C-Y>k
 nnoremap <C-J> <C-E>j
+nnoremap <C-Up> <C-Y>
+nnoremap <C-Down> <C-E>
 nmap <S-Up> v<Up>
 nmap <S-Down> v<Down>
 nmap <S-Left> v<Left>

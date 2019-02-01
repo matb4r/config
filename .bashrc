@@ -136,3 +136,5 @@ stty -ixon
 export GOPATH=$HOME/dev/go
 export GOROOT=/usr/lib/go-1.9
 export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+export EDITOR='vim'
+export VISUAL='vim'

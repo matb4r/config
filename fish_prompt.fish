@@ -1,3 +1,6 @@
+# mkdir ~/.config/fish/functions
+# vim ~/.config/fish/functions/fish_prompt.fish
+
 function fish_prompt --description 'Write out the prompt'                                   
 
     set stat $status
@@ -36,9 +39,12 @@ function fish_prompt --description 'Write out the prompt'
                 set -g __fish_prompt_cwd (set_color -o $fish_color_cwd)
             end
 
-            printf '[%s] %s%s %s(%s%s%s)%s » ' (date "+%H:%M:%S") "$__fish_prompt_cwd" (echo $PWD | sed -e "s|^$HOME|~|") "$__fish_prompt_normal" "$__fish_color_status" "$stat" "$__fish_prompt_normal" "$__fish_prompt_normal"
+            printf '[%s%s%s] %s%s %s(%s%s%s)%s » ' (set_color -o purple) (date "+%H:%M:%S") (set_color -o normal) "$__fish_prompt_cwd" (echo $PWD | sed -e "s|^$HOME|~|") "$__fish_prompt_normal" "$__fish_color_status" "$stat" "$__fish_prompt_normal" "$__fish_prompt_normal"
 
     end
 end
 
 set -x PATH ~/bin:$PATH
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
